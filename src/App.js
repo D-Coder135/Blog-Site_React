@@ -3,6 +3,7 @@ import './App.css';
 function App() {
   const title = 'Welcome to the new blog';
   const likes = 100;
+  const link = "http://www.google.com";
   
   return (
     <div className="App">
