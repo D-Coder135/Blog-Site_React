@@ -9,6 +9,7 @@ function App() {
       <div className="content">
         <h1>{ title }</h1>
         <p>Liked { likes } times</p>
+        <a></a>
       </div>
     </div>
   );
