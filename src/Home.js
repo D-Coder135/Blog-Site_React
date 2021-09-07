@@ -12,6 +12,7 @@ const Home = () => {
         <div className="home">
             {/* <h2>Homepage</h2> */}
             {blogs.map((blog) => (
+                <div className="blog-preview"></div>
 
             ))}
         </div>
