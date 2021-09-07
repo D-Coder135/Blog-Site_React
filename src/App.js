@@ -8,6 +8,7 @@ function App() {
   return (
     <div className="App">
       <div className="content">
+        <h1></h1>
         {/* <h1>{ title }</h1>
         <p>Liked { likes } times</p>
         <a href={link}>Google Site</a> */}
