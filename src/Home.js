@@ -7,6 +7,7 @@ const Home = () => {
 
     const handleClick = () => {
         setName('Harshit');
+        setAge(51);
     }
 
     return ( 
