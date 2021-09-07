@@ -3,7 +3,7 @@ const Navbar = () => {
         <nav className="navbar">
             <h1>Blog Site</h1>
             <div className="links">
-                <a href="/"></a>
+                <a href="/">Home</a>
             </div>
         </nav>
      );
