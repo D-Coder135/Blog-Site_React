@@ -3,6 +3,7 @@ import { useState } from "react";
 const Home = () => {
 
     const[name, setName] = useState('Devansh');
+    const[age, setAge] = useState(21);
 
     const handleClick = () => {
         setName('Harshit');
