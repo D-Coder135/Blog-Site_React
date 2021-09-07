@@ -1,4 +1,5 @@
 import { useState } from "react";
+import BlogList from "./BlogList";
 
 const Home = () => {
 
@@ -11,7 +12,7 @@ const Home = () => {
     return ( 
         <div className="home">
             {/* <h2>Homepage</h2> */}
-            
+            <BlogList />
         </div>
      );
 }
