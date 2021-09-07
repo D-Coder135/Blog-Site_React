@@ -1,4 +1,4 @@
-const BlogList = (props) => {
+const BlogList = () => {
 
     // const blogs = props.blogs;
 
