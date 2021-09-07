@@ -13,7 +13,7 @@ const Home = () => {
     return ( 
         <div className="home">
             <h2>Homepage</h2>
-            <p></p>
+            <p>{name} is {age} years old.</p>
             <button onClick = {handleClick}>Click Me</button>
         </div>
      );
