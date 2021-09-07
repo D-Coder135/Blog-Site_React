@@ -5,7 +5,7 @@ const Home = () => {
     const[name, setName] = useState('Devansh');
 
     const handleClick = () => {
-        // console.log('hello ninjas');
+        setName('Harshit');
     }
 
     return ( 
