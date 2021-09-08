@@ -10,7 +10,7 @@ const Home = () => {
     ]);
 
     const handleDelete = (id) => {
-
+        blogs.filter(() => blogs.id != id);
     }
 
     return ( 
