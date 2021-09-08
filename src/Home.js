@@ -9,8 +9,8 @@ const Home = () => {
         {title: 'Web dev top tips', body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quos, hic, laudantium, cumque odit maxime quo facere quis sapiente impedit harum! Eos est labore sunt quos laborum minus illum ducimus.', author: 'John', id: 1},
     ]);
 
-    const handleDelete = () => {
-        
+    const handleDelete = (id) => {
+
     }
 
     return ( 
