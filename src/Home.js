@@ -12,7 +12,7 @@ const Home = () => {
     return ( 
         <div className="home">
             {/* <h2>Homepage</h2> */}
-            <BlogList blogs = { blogs }/>
+            <BlogList blogs = { blogs, "All Blogs!"}/>
         </div>
      );
 }
