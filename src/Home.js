@@ -19,7 +19,7 @@ const Home = () => {
             setBlogs(data);
             setIsLoading(false);
         });
-        });
+        }, 1000);
     }, []);
 
     return ( 
