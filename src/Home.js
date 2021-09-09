@@ -16,6 +16,7 @@ const Home = () => {
             return res.json();
         }).then(data => {
             setBlogs(data);
+            setIsLoading(false);
         })
     }, []);
 
