@@ -4,6 +4,7 @@ import BlogList from "./BlogList";
 const Home = () => {
 
     const [blogs, setBlogs] = useState(null);
+    const [isLoading, setIsLoading] = useState(true);
 
     // const handleDelete = (id) => {
     //     const newBlogs = blogs.filter(blog => blog.id !== id);
