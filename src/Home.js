@@ -23,7 +23,7 @@ const Home = () => {
     return ( 
         <div className="home">
             {/* <h2>Homepage</h2> */}
-            {isPending && <div>loading..</div>}
+            {isLoading && <div>loading..</div>}
             {blogs && <BlogList blogs = { blogs } title="All Blogs!"/>}
         </div>
      );
