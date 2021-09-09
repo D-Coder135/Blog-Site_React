@@ -12,7 +12,9 @@ const Home = () => {
     // }
 
     useEffect(() => {
-        setTimeout();
+        setTimeout(() => {
+            
+        });
     }, []);
 
     return ( 
