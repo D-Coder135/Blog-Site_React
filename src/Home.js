@@ -14,6 +14,10 @@ const Home = () => {
         setBlogs(newBlogs);
     }
 
+    useEffect(() => {
+
+    }, []);
+
     return ( 
         <div className="home">
             {/* <h2>Homepage</h2> */}
