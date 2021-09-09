@@ -21,7 +21,7 @@ const Home = () => {
     return ( 
         <div className="home">
             {/* <h2>Homepage</h2> */}
-            {blogs && <BlogList blogs = { blogs } title="All Blogs!" handleDelete = { handleDelete }/>}
+            {blogs && <BlogList blogs = { blogs } title="All Blogs!"/>}
         </div>
      );
 }
