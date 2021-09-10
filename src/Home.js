@@ -23,7 +23,7 @@ const Home = () => {
             setBlogs(data);
             setIsLoading(false);
         }).catch(error => {
-            console.log(error.message);
+            // console.log(error.message);
         })
         }, 1000);
     }, []);
