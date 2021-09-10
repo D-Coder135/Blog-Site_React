@@ -25,6 +25,7 @@ const Home = () => {
         }).catch(error => {
             // console.log(error.message);
             setError(error.message);
+            setIsLoading(false);
         })
         }, 1000);
     }, []);
