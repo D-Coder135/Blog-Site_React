@@ -18,7 +18,9 @@ const Home = () => {
         }).then(data => {
             setBlogs(data);
             setIsLoading(false);
-        });
+        }).catch(error => {
+            
+        })
         }, 1000);
     }, []);
 
