@@ -22,6 +22,7 @@ const Home = () => {
         }).then(data => {
             setBlogs(data);
             setIsLoading(false);
+            setError(null);
         }).catch(error => {
             // console.log(error.message);
             setError(error.message);
