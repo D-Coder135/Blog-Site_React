@@ -14,7 +14,7 @@ const useFetch = () => {
                 }
             return res.json();
         }).then(data => {
-            setBlogs(data);
+            setData(data);
             setIsLoading(false);
             setError(null);
         }).catch(error => {
