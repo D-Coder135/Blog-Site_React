@@ -24,6 +24,8 @@ const useFetch = () => {
         })
         }, 1000);
     }, []);
+
+    return {data, isLoading, error}
 }
 
 export default useFetch;
