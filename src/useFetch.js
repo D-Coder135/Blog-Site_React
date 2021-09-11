@@ -25,3 +25,5 @@ const useFetch = () => {
         }, 1000);
     }, []);
 }
+
+export default useFetch;
