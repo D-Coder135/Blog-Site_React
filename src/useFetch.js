@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 const useFetch = () => {
 
-    const [blogs, setBlogs] = useState(null);
+    const [data, setData] = useState(null);
     const [isLoading, setIsLoading] = useState(true);
     const [error, setError] = useState(null);
 
