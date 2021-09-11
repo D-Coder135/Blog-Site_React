@@ -1,4 +1,9 @@
 const useFetch = () => {
+
+    const [blogs, setBlogs] = useState(null);
+    const [isLoading, setIsLoading] = useState(true);
+    const [error, setError] = useState(null);
+
     useEffect(() => {
         setTimeout(() => {
             fetch('http://localhost:8000/blogs').then(res => {
