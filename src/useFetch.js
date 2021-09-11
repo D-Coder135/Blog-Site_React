@@ -8,7 +8,7 @@ const useFetch = (url) => {
 
     useEffect(() => {
         setTimeout(() => {
-            fetch('http://localhost:8000/blogs').then(res => {
+            fetch(url).then(res => {
                 if(!res.ok) {
                     throw Error('Could Not Fetch The Data For That Response!');
                 }
